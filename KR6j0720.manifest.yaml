@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6j0720/v1
+canonical_location: https://kanripo.org/bkk/KR6j0720/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 楞嚴經勢至圓通章解
+  identifiers:
+    alt_id:
+    - X16n0312
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X16/X16n0312.xml
+    old_id: X16n0312
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0720_000.yaml, hash: 'sha256:c67eb7f62d6b43a0025915b23ac11bf738232a9f24db8c36b0c3ca6ea48e8da8'}
+  - {seq: 1, filename: KR6j0720_001.yaml, hash: 'sha256:913343162f849de746d9c3b8dd085cd0188f2e085ddc172d884bd5f605b08bba'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0720_001.markers.yaml, hash: 'sha256:95df9b3751ef71797103b6cdca5719c9408630e9af948f1cf1281009f0a34faf'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0720_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 2315
+  label: 首楞嚴經勢至圓通章解
+  type: juan
+  level: 1
+hash: sha256:19afca6c2238c06b4b99936d7956454ec04af26024f68baf107a94104083f530
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

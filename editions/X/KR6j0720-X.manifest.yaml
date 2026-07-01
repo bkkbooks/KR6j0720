@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6j0720/X/v1
+canonical_location: https://kanripo.org/bkk/KR6j0720/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 楞嚴經勢至圓通章解
+  identifiers:
+    krp: KR6j0720
+    cbeta: X16n0312
+    cbeta_old_id: X16n0312
+    authorityid: CA0001981
+    json_key: X0312
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X16/X16n0312.xml
+    old_id: X16n0312
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0720_000-X.yaml, hash: 'sha256:c67eb7f62d6b43a0025915b23ac11bf738232a9f24db8c36b0c3ca6ea48e8da8'}
+  - {seq: 1, filename: KR6j0720_001-X.yaml, hash: 'sha256:d949662a016d16f275fd811ad6c9503c0439edb617de3a545daadd9b7753b251'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0720_000-X.markers.yaml, hash: 'sha256:59442e2e0a83087f8e02de9750463e7d13e53131dd929a1248fcc469857c44b4'}
+  - {seq: 1, role: markers, filename: assets/KR6j0720_001-X.markers.yaml, hash: 'sha256:9c58a58faa563bfa1000654c5bce30d2bedf108f684fd3a59c1bbff2d5eb5a28'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0720_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 2315
+  label: 首楞嚴經勢至圓通章解
+  type: juan
+  level: 1
+hash: sha256:97f3f9f061be22809e8c772b41332dc07bad26f5737a919c742189eb1ec2bfa0
