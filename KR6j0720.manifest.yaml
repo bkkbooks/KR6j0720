@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0720_000.yaml, hash: 'sha256:c67eb7f62d6b43a0025915b23ac11bf738232a9f24db8c36b0c3ca6ea48e8da8'}
-  - {seq: 1, filename: KR6j0720_001.yaml, hash: 'sha256:913343162f849de746d9c3b8dd085cd0188f2e085ddc172d884bd5f605b08bba'}
+  - {seq: 1, filename: KR6j0720_001.yaml, hash: 'sha256:d949662a016d16f275fd811ad6c9503c0439edb617de3a545daadd9b7753b251'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0720_001.markers.yaml, hash: 'sha256:95df9b3751ef71797103b6cdca5719c9408630e9af948f1cf1281009f0a34faf'}
+  - {seq: 0, role: markers, filename: assets/KR6j0720_000.markers.yaml, hash: 'sha256:686ce5117bf7b8d302963cee9a912b2f3f6356db063dfa495a57b866e6c8700e'}
+  - {seq: 1, role: markers, filename: assets/KR6j0720_001.markers.yaml, hash: 'sha256:a7c61af893aca21e931a1a954ed1ea86cce85b854629ebdbfb18a96c997c265b'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 首楞嚴經勢至圓通章解
   type: juan
   level: 1
-hash: sha256:19afca6c2238c06b4b99936d7956454ec04af26024f68baf107a94104083f530
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:7fce04a21ac0da14748e735d65c6aa4d0b17eec829588f103e3da13481dd214a
