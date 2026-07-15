@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0720/v1
 canonical_location: https://kanripo.org/bkk/KR6j0720/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 楞嚴經勢至圓通章解
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0720_000.yaml, hash: 'sha256:c67eb7f62d6b43a0025915b23ac11bf738232a9f24db8c36b0c3ca6ea48e8da8'}
-  - {seq: 1, filename: KR6j0720_001.yaml, hash: 'sha256:d949662a016d16f275fd811ad6c9503c0439edb617de3a545daadd9b7753b251'}
+  - {seq: 1, filename: KR6j0720_001.yaml, hash: 'sha256:9ffacc1b5154896d7880142a3aff1bee40b61772353b7714cb46e68afd091475'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0720_000.markers.yaml, hash: 'sha256:686ce5117bf7b8d302963cee9a912b2f3f6356db063dfa495a57b866e6c8700e'}
-  - {seq: 1, role: markers, filename: assets/KR6j0720_001.markers.yaml, hash: 'sha256:a7c61af893aca21e931a1a954ed1ea86cce85b854629ebdbfb18a96c997c265b'}
+  - {seq: 1, role: markers, filename: assets/KR6j0720_001.markers.yaml, hash: 'sha256:1f541d5a783c9dc3326483ce4129dfb7ba40817a08483e68fdb18e140bd79e05'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 首楞嚴經勢至圓通章解
   type: juan
   level: 1
-hash: sha256:7fce04a21ac0da14748e735d65c6aa4d0b17eec829588f103e3da13481dd214a
+hash: sha256:bd084463d9b2caeea876f3e1dcfc4f764f8934efd9ad18b4ed1e1385344815fc
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
